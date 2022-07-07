@@ -1,0 +1,245 @@
+    body {
+        font-family: 'Open Sans', sans-serif;
+        margin: 0px;
+        background-color: beige;
+    }
+    
+    .top-banner {
+        width: 100%;
+        height: 100vh;
+        background-image: url(images/donation13.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .content {
+        width: 100%;
+        position: absolute;
+        top: 5%;
+        text-align: center;
+        color: white;
+    }
+    
+    .content h1 {
+        font-size: 50px;
+        margin-top: 50px;
+    }
+    
+    .content p {
+        font-size: 18px;
+        margin: 20px;
+        font-weight: 100px;
+        line-height: 25px;
+        color: white;
+    }
+    
+    .button {
+        background-color: skyblue;
+        color: white;
+        text-decoration: none;
+        padding: 15px 20px;
+        font-weight: bold;
+        border-radius: 8px;
+    }
+    
+    .donate h2 {
+        font-weight: bold;
+        color: black;
+        font-size: 50px;
+        margin-top: 50px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .donate p {
+        font-size: 20px;
+        margin: 10px;
+        color: black;
+        font-weight: 100px;
+        line-height: 20px;
+        text-align: center;
+    }
+    
+    .container {
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .btn {
+        background-color: skyblue;
+        border: none;
+        color: white;
+        padding: 40px 40px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 4px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    
+    .btn1,
+    .btn2,
+    .btn3,
+    .btn4,
+    .btn5 {
+        background-color: white;
+        color: black;
+        border: 2px solid skyblue;
+    }
+    
+    .btn1:hover,
+    .btn2:hover,
+    .btn3:hover,
+    .btn4:hover,
+    .btn5:hover {
+        background-color: skyblue;
+        color: white;
+    }
+    
+    .form {
+        width: 100%;
+        min-height: 100%;
+        padding: 5%;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .form-bar {
+        width: 100%;
+        max-width: 500px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .form-bar input {
+        background: transparent;
+        flex: 1;
+        border-top: none;
+        border-inline: none;
+        outline: none;
+        padding: 10px 0px;
+        font-size: 15px;
+        color: black;
+        text-align: center;
+    }
+    
+    .form-btn {
+        text-align: center;
+        margin-top: 0px;
+    }
+    
+    .btn-form {
+        background-color: skyblue;
+        color: white;
+        text-decoration: none;
+        padding: 15px 20px;
+        font-weight: bold;
+        border-radius: 8px;
+    }
+    
+    .plan {
+        width: 50%;
+        margin: auto;
+        text-align: center;
+        padding-top: 10px;
+    }
+    
+    .plan h3 {
+        text-align: center;
+        font-weight: 600;
+        margin: 10px 0;
+    }
+    
+    .plan p {
+        color: black;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 25px;
+        padding: 20px;
+    }
+    
+    .plan {
+        margin-top: 2%;
+        display: flex;
+        justify-content: space-between;
+        background-size: 100%;
+    }
+    
+    .plan-col-1 {
+        flex-basis: 30%;
+        background-color: skyblue;
+        border-radius: 5px;
+        margin-bottom: 20%;
+        padding: 5px 5px;
+        box-sizing: border-box;
+    }
+    
+    .plan-col-2 {
+        flex-basis: 30%;
+        background-color: peachpuff;
+        border-radius: 5px;
+        margin-bottom: 20%;
+        padding: 5px 5px;
+        box-sizing: border-box;
+    }
+    
+    .plan-col-3 {
+        flex-basis: 30%;
+        background-color: antiquewhite;
+        border-radius: 5px;
+        margin-bottom: 20%;
+        padding: 5px 5px;
+        box-sizing: border-box;
+    }
+    
+    .updates {
+        width: 100%;
+        min-height: 100%;
+        padding: 5%;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .updates-bar {
+        width: 100%;
+        max-width: 400px;
+        background-color: peachpuff;
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+        padding: 100px 100px;
+    }
+    
+    .updates-bar input {
+        background: transparent;
+        flex: 1;
+        outline: none;
+        padding: 12px 12px;
+        font-size: 15px;
+        color: black;
+        background-color: azure;
+        border: 0;
+    }
+    
+    .btn-updates {
+        background-color: skyblue;
+        color: white;
+        text-decoration: none;
+        padding: 10px 10px;
+        font-weight: bold;
+        border-radius: 0;
+    }
+    
+    .footer {
+        margin: 0px;
+        padding: 10px;
+        height: 100px;
+        text-align: center;
+        background-color: burlywood;
+        color: white;
+    }
